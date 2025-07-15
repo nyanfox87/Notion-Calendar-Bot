@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  discord-bot:
+    build: .
+    container_name: discord_bot
+    volumes:
+      - .:/app  # Optional: allows live code update if not using COPY only
+    restart: unless-stopped
