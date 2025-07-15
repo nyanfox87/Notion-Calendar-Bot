@@ -1,0 +1,11 @@
+discord:
+    token: "test.test.test"
+    guild_id: test
+    general_channel: "test"
+    secret_channel: "test"
+
+notion:
+    token: "test"
+    database:
+      general: "test"
+      secret: "test"
